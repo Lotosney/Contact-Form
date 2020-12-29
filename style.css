@@ -12,9 +12,9 @@
     width: 100%;
     padding: 75px 5px 5px 5px;
   }
-  .message {
+  textarea {
     width: 100%;
-    height:inherit;
+    height:120px;
     border-radius: 25px;
     padding: 10px 5px 5px 5px;
     background-color: #ECF0F3;
