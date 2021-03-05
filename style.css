@@ -1,4 +1,5 @@
-.login-div {
+.contact-div {
+    margin-top:100px;
     margin:auto;
     width:430px;
     height: 500px;
@@ -8,21 +9,33 @@
     box-shadow: 13px 13px 20px #cbced1,
                 -13px -13px 20px #ffffff;
   }
+  .title{
+    text-align:center;
+    padding: auto;
+    font-size:  3vh;
+    margin-bottom: 20px;
+  }
    .fields {
     width: 100%;
-    padding: 75px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
   }
-  textarea {
-    width: 100%;
-    height:120px;
+  .message-container {
     border-radius: 25px;
     padding: 10px 5px 5px 5px;
     background-color: #ECF0F3;
     box-shadow: inset 8px 8px 8px #cbced1, 
               inset -8px -8px 8px #ffffff;
-    
+
+    }
+    textarea{
+      height:fit-content;
+      resize: none;
+    }
+  .message{
+    width:100%;
   }
-  .fields input {
+
+  .fields input, textarea {
     border: none;
     outline:none;
     background: none;
@@ -30,7 +43,7 @@
     color: #555;
     padding:20px 10px 20px 5px;
   }
-  .name, .email, .message-container  {
+  .name, .email {
     margin-bottom: 15px;
     border-radius: 25px;
     box-shadow: inset 8px 8px 8px #cbced1,

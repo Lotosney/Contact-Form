@@ -7,14 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="login-div">
+    <div class="contact-div">
+      <form method="post" action="send">
+   
         <div class="fields">
-          <div class="name"><input type="name" class="name-input" placeholder="name" /></div>
-          <div class="email"><input type="email" class="mail-input" placeholder="email" /></div>
-          <div class="message-container"><textarea class="message" name="message" placeholder="Write something.." ></textarea></div>
+          <div class="title">Kontakt</div>
+          <div class="name"><input type="name" class="name-input" placeholder="Imię" /></div>
+          <div class="email"><input type="email" class="mail-input" placeholder="Email" /></div>
+          <div class="message-container"><textarea class="message" name="message" placeholder="Wiadomość" ></textarea></div>
+          <input type="file" id="myFile" name="filename">
         </div>
-        <button class="send-button">Send</button>
-        <button class="delete-button">Delete</button>
+        <button type="submit" class="send-button">Send</button>
+        <button type="reset" class="delete-button">Delete</button>
+        </form>
       </div>
     </div>
 </body>
